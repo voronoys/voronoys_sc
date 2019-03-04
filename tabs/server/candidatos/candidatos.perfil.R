@@ -7,7 +7,7 @@ observeEvent(input$perfil_candidato_ano,{
   if(!is.null(ano)){
     chaves_sub <- chaves %>%
       filter(ANO_ELEICAO == ano) %>%
-      distinct(CODIGO_CARGO, DESCRICAO_CARGO)
+      distinct(CODIGO_CARGO, DESCRICAO_CARGO_EN)
     
     ##-- Setando o cargo default
     cargos <- unique(chaves_sub$CODIGO_CARGO)
@@ -17,7 +17,7 @@ observeEvent(input$perfil_candidato_ano,{
       cargo_default <- cargos[1]
     }
     
-    cargos_list <- setNames(as.list(chaves_sub$CODIGO_CARGO), chaves_sub$DESCRICAO_CARGO)
+    cargos_list <- setNames(as.list(chaves_sub$CODIGO_CARGO), chaves_sub$DESCRICAO_CARGO_EN)
     
     ##-- Atualizando os cargos ----
     updatePickerInput(session = session,
