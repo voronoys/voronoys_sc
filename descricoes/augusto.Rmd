@@ -1,0 +1,45 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+# Augusto Marcolin
+
+<!-- Duas colunas -->
+<div class="col2">
+<img class="foto" src="img/Acusto.jpg"/>
+
+<div class="descricao">
+
+### Description
+
+Possui graduação em Estatística pela Universidade Federal do Rio Grande do Sul - UFRGS (2015), atualmente é mestrando em Estatística pela Universidade Federal de Minas Gerais. Trabalhou como bolsista de iniciação científica CAPES com classificação se séries temporais. Foi coordenador do Grupo Stats4Good - UFMG, sendo idealizador e líder do projeto Veraz, o qual visa criar uma plataforma de visualização de dados para o Portal da Transparência.  
+
+***
+
+### Interests
+
+* Machine Learning
+* AI
+* Estatística Computacional
+* Bayesian Analysis
+* Data Visualization
+
+***
+
+</div>
+
+<div align='right'>
+  <a href="https://www.linkedin.com/in/augusto-marcolin-1114a1b5/"> 
+    <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://github.com/augustomarcolin"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://twitter.com/"> 
+    <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+</div>
+
+</div>

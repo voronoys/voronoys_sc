@@ -1,0 +1,50 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+# Douglas Mesquita
+
+<!-- Duas colunas -->
+<div class="col2">
+<img class="foto" src="img/Douglas.jpg"/>
+
+<div class="descricao">
+
+### Description
+
+Possui graduação em Estatística pela Universidade Federal do Rio Grande do Sul - UFRGS (2013), 
+Mestrado em Estatística pela Universidade Federal de Minas Gerais - UFMG (2015), 
+atualmente é aluno de doutorado em Estatística na UFMG trabalhando com modelos espaciais de 
+sobrevivência. Trabalhou no projeto InfoSAS cujo objetivo era a detecção de anomalias 
+estatísticas na produção do SUS. É um dos fundadores do Grupo Stats4Good - UFMG. 
+Atualmente trabalha no projeto ELSA Brasil cujo objetivo é investigar a incidência 
+e os fatores de risco associados à doenças crônicas. 
+
+***
+
+### Interests
+
+* Estatístca Computacional
+* Visualização de Dados 
+* Estatística Espacial 
+* Modelagem Estatística
+
+***
+
+</div>
+
+<div align='right'>
+  <a href="https://www.linkedin.com/in/douglas-mesquita/"> 
+    <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://github.com/DouglasMesquita"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://twitter.com/"> 
+    <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+</div>
+
+</div>

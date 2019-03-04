@@ -1,0 +1,50 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+# Felipe Nunes
+
+<!-- Duas colunas -->
+<div class="col2">
+<img class="foto" src="img/felipe.jpg"/>
+
+<div class="descricao">
+
+### Description
+
+Possui graduação em Ciências Sociais (2006) e mestrado em Ciência Política (2009) pela Universidade 
+Federal de Minas Gerais (UFMG). É mestre em Ciência Política pela Universidade da California, 
+Los Angeles (UCLA), onde cursou também mestrado em Estatística e o doutorado em Ciência Política. 
+É bolsista CAPES/Fulbright e pesquisador do Centro de Estudos Legislativos da UFMG. 
+Tem experiência na área de Ciência Política, com ênfase em instituições políticas comparadas e 
+desenho de pesquisa, atuando principalmente nos seguintes temas: comportamento parlamentar, 
+relação Executivo-Legislativo, política distributiva e partidos na América Latina.
+
+<!-- *** -->
+
+<!-- ### Interests -->
+
+<!-- * Estatístca Computacional -->
+<!-- * Visualização de Dados  -->
+<!-- * Estatística Espacial  -->
+<!-- * Modelagem Estatística -->
+
+***
+
+</div>
+
+<div align='right'>
+  <a href="https://www.linkedin.com/in/felipe-nunes-31772453/"> 
+    <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://github.com/DouglasMesquita"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://twitter.com/"> 
+    <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+</div>
+
+</div>

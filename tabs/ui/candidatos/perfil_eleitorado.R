@@ -1,0 +1,80 @@
+perfil_eleitorado <- tabPanel(title = "Voter profile", 
+                              value = "candidatos_perfil_eleitorado",
+                              br(), hr(),
+                              column(width = 10,
+                                     column(width = 2,
+                                            pickerInput(inputId = "perfil_candidato_voronoi_ano", 
+                                                        label = "Year", 
+                                                        choices = 2014,
+                                                        selected = 2014)
+                                     ),
+                                     column(width = 2,
+                                            pickerInput(inputId = "perfil_candidato_voronoi_cargo", 
+                                                        label = "Cargo", 
+                                                        choices = "PRESIDENT",
+                                                        selected = "PRESIDENT")
+                                     ),
+                                     column(width = 2,
+                                            pickerInput(inputId = "perfil_candidato_voronoi_turno", 
+                                                        label = "Round", 
+                                                        choices = c("1º round", "2º round"), 
+                                                        selected = "1º",
+                                                        options = list(`live-search` = TRUE))
+                                     ),
+                                     column(width = 2,
+                                            pickerInput(inputId = "perfil_candidato_voronoi_partido", 
+                                                        label = "Party", 
+                                                        choices = levels(factor(x = partidos,
+                                                                                levels = partidos)), 
+                                                        selected = "PT",
+                                                        options = list(`live-search` = TRUE,
+                                                                       `none-selected-text` = "None selected"))
+                                     ),
+                                     column(width = 2,
+                                            pickerInput(inputId = "perfil_candidato_voronoi_estado", 
+                                                        label = "State", 
+                                                        choices = "SP", 
+                                                        selected = "SP",
+                                                        options = list(`live-search` = TRUE,
+                                                                       `none-selected-text` = "None selected"))
+                                     ),
+                                     column(width = 2,
+                                            pickerInput(inputId = "perfil_candidato_voronoi_municipio", 
+                                                        label = "City", 
+                                                        choices = municipios, 
+                                                        selected = "3550308",
+                                                        options = list(`live-search` = TRUE,
+                                                                       `none-selected-text` = "None selected"))
+                                     )
+                              ),
+                              column(width = 2,
+                                     br(),
+                                     actionBttn(inputId = "perfil_candidato_voronoi_gerar_visualizacoes", 
+                                                label = "Select", 
+                                                style = "fill", 
+                                                color = "success", 
+                                                icon = icon("check")) 
+                              ),
+                              column(width = 12,
+                                     conditionalPanel(condition = "input.perfil_candidato_voronoi_gerar_visualizacoes > 0",
+                                                      column(width = 6,
+                                                             HTML("<center><h1>VOTES BY ELECTORAL SECTIONS MAP</h1></center>")
+                                                      ),
+                                                      column(width = 6,
+                                                             HTML("<center><h1>SOCIOECONOMIC COVARIATE MAP</h1></center>"),
+                                                             HTML("<center>"),
+                                                             pickerInput(inputId = "perfil_candidato_voronoi_variavel", 
+                                                                         label = "Variável", 
+                                                                         choices = c("Income (log)", "Income (categories)",
+                                                                                     "% white", "% not white",
+                                                                                     "% illiteracy",
+                                                                                     "% women", "% men"),
+                                                                         selected = "Income (log)"),
+                                                             HTML("</center>")
+                                                      ),
+                                                      column(width = 12,
+                                                             withSpinner(uiOutput("mapa_voronoi", height = "500px"), type = 6)
+                                                      )
+                                     )
+                              )
+)

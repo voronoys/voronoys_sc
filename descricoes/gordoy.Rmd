@@ -1,0 +1,48 @@
+---
+output: 
+  html_fragment
+fontsize: 8pt
+---
+
+# Lucas Godoy
+
+<!-- Duas colunas -->
+<div class="col2">
+<img class="foto" src="img/gordoy.jpg"/>
+
+<div class="descricao">
+
+### Description
+
+Bacharel em Estatística pela Universidade Federal do Rio Grande do Sul (2016) e atualmente é aluno
+de mestrado em Estatística na Universidade Federal de Minas Gerais, onde atualmente trabalha com 
+estatística espacial. Tem experiência com geoestatística, análise de dados públicos, análise de 
+dados da web e modelos preditivos. 
+
+***
+
+### Interests
+
+* Estatística Aplicada 
+* Estatístca Computacional
+* Estatística Espacial 
+* Estatística Bayesiana
+* Machine Learning
+
+***
+
+</div>
+
+<div align='right'>
+  <a href="https://www.linkedin.com/in/godoy-lucas/"> 
+    <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://github.com/lcgodoy"> 
+    <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+  <a href="https://twitter.com/godoy_lusca"> 
+    <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
+  </a>
+</div>
+
+</div>
