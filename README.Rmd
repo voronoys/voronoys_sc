@@ -14,9 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Links
 
-Live version: [Voronoys - Live app](https://voronoys.shinyapps.io/voronoys/)
-RStudio cloud: [Voronoys - RStudio cloud](https://voronoys.shinyapps.io/voronoys/)
-GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
++ Live version: [Voronoys - Live app](https://voronoys.shinyapps.io/voronoys/)
++ RStudio cloud: [Voronoys - RStudio cloud](https://voronoys.shinyapps.io/voronoys/)
++ GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
 
 ## Quick reading: Highlights
 
@@ -51,7 +51,7 @@ in this tab the user can find visualizations at federal and state level. Winners
 
 ![](www/img/eleicoes_gerais.png)
 
-### Parties
+### Party analisys
 
 Here it is possible to understand how political parties are related in federal and state level. The parties more represented in each state, coalitions, and socio-demographic information of the politicians in each party are some example of outputs in this tab.
 
