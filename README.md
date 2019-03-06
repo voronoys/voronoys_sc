@@ -10,10 +10,9 @@ used in this work called Voronoi tessellation.
 Links
 =====
 
-Live version: [Voronoys - Live
-app](https://voronoys.shinyapps.io/voronoys/) RStudio cloud: [Voronoys -
-RStudio cloud](https://voronoys.shinyapps.io/voronoys/) GitHub:
-[Voronoys - Github](https://github.com/voronoys/voronoys_sc)
+-   Live version: [Voronoys - Liveapp](https://voronoys.shinyapps.io/voronoys/) 
+-   RStudio cloud: [Voronoys - RStudio cloud](https://voronoys.shinyapps.io/voronoys/) 
+-   GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
 
 Quick reading: Highlights
 =========================
@@ -106,7 +105,7 @@ in this tab.
 
 ![](www/img/candidatos.png)
 
-![](www/img/voronoi2.png)
+![](www/img/voronoys2.png)
 
 We have restricted data for the years 2014 and 2016 for operational
 reasons.

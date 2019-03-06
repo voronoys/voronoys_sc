@@ -70,6 +70,6 @@ Here it is to see the voronoi methodology in pratice and also personal informati
 
 ![](www/img/candidatos.png)
 
-![](www/img/voronoi2.png)
+![](www/img/voronoys2.png)
 
 We have restricted data for the years 2014 and 2016 for operational reasons.
