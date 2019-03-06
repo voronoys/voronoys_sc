@@ -1,29 +1,24 @@
 ---
-title: "VORONOYS"
-output: md_document
+output: github_document
 ---
+
+# Voronoys <a href='https://voronoys.shinyapps.io/voronoys/'><img src='www/img/logo.png' align="right" height="138.5" /></a>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r, echo=FALSE}
-htmltools::img(src = knitr::image_uri("www/img/logo.png"), 
-               alt = 'logo', 
-               style = 'position:absolute; top:0; right:0; padding:10px;width:200px')
-```
-
-# About the app
+## About the app
 
 *VORONOYS* is a group composed of 4 statisticians and a political scientist. Its beginning was motivated by the first challenge of CEPES Data, in which the main objective was to show new perspectives on the Brazilian elections. The name is based on the mathematical technique used in this work called Voronoi tessellation.
 
-# Links
+## Links
 
 Live version: [Voronoys - Live app](https://voronoys.shinyapps.io/voronoys/)
 RStudio cloud: [Voronoys - RStudio cloud](https://voronoys.shinyapps.io/voronoys/)
 GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
 
-# Quick reading: Highlights
+## Quick reading: Highlights
 
 This tool provide to user a deep access to brazilian election results. It is possible to create general maps, plots, and tables by states and cities as well investigate some under reported analysis as the case of the number of coalitions for example. As Brazil has nowadays 35 parties the user have a huge number of possibilities of analisys in our tool.
 
@@ -36,7 +31,7 @@ With this tool it is possible to check some hypothesys about characteristics of 
 
 ![](www/img/voronoys.png)
 
-# General idea
+## General idea
 
 Our main aim is to provide a non conventional tool to visualize brazilian election in which the user is able to understand the information clearly and directly. This way everyone is able to use and understand this tool. 
 
@@ -44,25 +39,25 @@ A differential of our app is the possibility to visualize brazilian elections in
 
 We assumed that voters prefer to vote near their houses. Then using censitary informations we can contrast two layers of polygons: 1) censitary regions; 2) voronoi cells created using electoral sections. Then it is possible to compare populations of different parties and understand their main characteristics.
 
-# Visualizations
+## Visualizations
 
 The first screen give to user four tabs:
 
 ![](www/img/home.png)
 
-## General analisys
+### General analisys
 
 in this tab the user can find visualizations at federal and state level. Winners by state/city and number of votes of each candidate are some examples of outputs in this tab.
 
 ![](www/img/eleicoes_gerais.png)
 
-## Parties
+### Parties
 
 Here it is possible to understand how political parties are related in federal and state level. The parties more represented in each state, coalitions, and socio-demographic information of the politicians in each party are some example of outputs in this tab.
 
 ![](www/img/partidos.png)
 
-## Candidates
+### Candidates
 
 Here it is to see the voronoi methodology in pratice and also personal information of each politician. Socio-demographic information of parties voters and votes by city of each politician are some example of outputs in this tab.
 
