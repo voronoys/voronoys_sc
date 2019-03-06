@@ -14,28 +14,23 @@ fontsize: 8pt
 
 ### Description
 
-Possui graduação em Estatística pela Universidade Federal de Juiz de Fora (2010), 
-Mestrado em Estatística pela Universidade Federal de Minas Gerais (2012), 
-Doutorado em Estatística pela Universidade Federal de Minas Gerais (2017) com ênfase em 
-visualização de dados. 
-Recebeu o Prêmio deIncentivo em Ciência e Tecnologia para o SUS na 
-categoria mestrado (2013). É um dos fundadores do Grupo Stats4Good - 2016.
+I obtained a Ph.D. and a Master in Statistics at the Federal University of Minas Gerais (Universidade Federal de Minas Gerais (UFMG), with a thesis about “COWORDS: A Probabilistic Model for Text Visualization” and  “New tools for visualization of georeferenced data: an integration between R and Google Maps.” I worked in the private sector as a data scientist for marketing and as Research Fellow at the University of Minas Gerais on health and social statistics. During my assignments, I implemented various statistical projects ranging from the development of predictive models in a Hadoop environment to pattern detection on health data using machine learning techniques. In 2013, my master thesis received the award  Prêmio de Incentivo em Ciência e Tecnologia para o SUS (Science and technology incentive award for the Brazilian Unified Health System)
 
 ***
 
 ### Interests
 
-* Estatístca Computacional
-* Visualização de Dados 
-* Estatística Espacial 
-* Modelagem Estatística
+* Statistical computing
+* Data visualization
+* Spatial data analysis
+* Statistical modeling
 
 ***
 
 </div>
 
 <div align='right'>
-  <a href="https://www.linkedin.com/in/"> 
+  <a href="https://www.linkedin.com/in/lgsilvaesilva/"> 
     <i class="fa fa-linkedin" style='font-size:20px; margin: 0px 5px'></i>
   </a>
   <a href="https://github.com/lgsilvaesilva"> 

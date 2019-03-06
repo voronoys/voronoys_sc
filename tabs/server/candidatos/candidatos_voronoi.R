@@ -1,5 +1,14 @@
-##-- + Atualizações dos filtros ----
+observeEvent(input$perfil_candidato_voronoi_metodologia,{
+  showModal(
+    modalDialog(
+      size = "l",
+      title = "REFERENCE",
+      tags$iframe(style = "height:600px; width:100%; scrolling = yes", src = "pdf/voronoi_data_linkage.pdf"),
+      footer = tagList(modalButton("Ok"))
+    ))
+})
 
+##-- + Atualizações dos filtros ----
 ##-- ++ Atualizações dos turnos ----
 observeEvent(c(input$perfil_candidato_voronoi_ano, 
                input$perfil_candidato_voronoi_cargo),{
@@ -30,6 +39,7 @@ observeEvent(c(input$perfil_candidato_voronoi_ano,
                  }
                  
                }, priority = 2)
+
 ##-- ++ Atualizações dos partidos ----
 observeEvent(c(input$perfil_candidato_voronoi_ano, 
                input$perfil_candidato_voronoi_cargo, 
@@ -197,7 +207,7 @@ mapas_voronois <- eventReactive(input$perfil_candidato_voronoi_gerar_visualizaco
                   direction = "auto")) %>% 
     addLegend("bottomright", pal = paleta1, values = seq(0, 1, length.out = 100), 
               opacity = .9, 
-              title = "Votos", 
+              title = "Votes", 
               labFormat = labelFormat(suffix = "%", digits = 4, transform = function(x) x*100))
   
   ##-- Variáveis ---- 
@@ -205,7 +215,7 @@ mapas_voronois <- eventReactive(input$perfil_candidato_voronoi_gerar_visualizaco
   variavel_label <- input$perfil_candidato_voronoi_variavel
   
   variavel <- switch(variavel_label,
-                     "Income (log)" = "log_renda",
+                     "Income" = "log_renda",
                      "Income (categories)" = "renda_cat",
                      "% white"= "brancos", 
                      "% not white"= "nao_brancos", 
@@ -256,7 +266,7 @@ mapas_voronois <- eventReactive(input$perfil_candidato_voronoi_gerar_visualizaco
       select_(.dots = c("cidade", "pop", "renda")) 
     
     toltip <- apply(base_tooltip, MARGIN = 1, FUN = function(x) tooltip_map(title = paste(x[1], "-", x[2]), 
-                                                                            vars = c("Income (log)"), 
+                                                                            vars = c("Income"), 
                                                                             values = x[-c(1:2)], integer = F))
     
   }
@@ -287,7 +297,7 @@ mapas_voronois <- eventReactive(input$perfil_candidato_voronoi_gerar_visualizaco
   if(variavel == "log_renda"){
     l2 <- l2 %>%
       addLegend("bottomright", pal = paleta1, values = ~get(variavel),
-                labFormat = labelFormat(prefix = "R$%", digits = 2, transform = function(x) exp(x)),
+                labFormat = labelFormat(prefix = "R$ ", digits = 2, transform = function(x) exp(x)),
                 title = variavel_label,
                 opacity = .9)
     

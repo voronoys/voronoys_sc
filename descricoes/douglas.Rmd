@@ -14,22 +14,27 @@ fontsize: 8pt
 
 ### Description
 
-Possui graduação em Estatística pela Universidade Federal do Rio Grande do Sul - UFRGS (2013), 
-Mestrado em Estatística pela Universidade Federal de Minas Gerais - UFMG (2015), 
-atualmente é aluno de doutorado em Estatística na UFMG trabalhando com modelos espaciais de 
-sobrevivência. Trabalhou no projeto InfoSAS cujo objetivo era a detecção de anomalias 
-estatísticas na produção do SUS. É um dos fundadores do Grupo Stats4Good - UFMG. 
-Atualmente trabalha no projeto ELSA Brasil cujo objetivo é investigar a incidência 
-e os fatores de risco associados à doenças crônicas. 
+<!-- Possui graduação em Estatística pela Universidade Federal do Rio Grande do Sul - UFRGS (2013),  -->
+<!-- Mestrado em Estatística pela Universidade Federal de Minas Gerais - UFMG (2015),  -->
+<!-- atualmente é aluno de doutorado em Estatística na UFMG trabalhando com modelos espaciais de  -->
+<!-- sobrevivência. Trabalhou no projeto InfoSAS cujo objetivo era a detecção de anomalias  -->
+<!-- estatísticas na produção do SUS. É um dos fundadores do Grupo Stats4Good - UFMG.  -->
+<!-- Atualmente trabalha no projeto ELSA Brasil cujo objetivo é investigar a incidência  -->
+<!-- e os fatores de risco associados à doenças crônicas.  -->
+
+I am graduatesd in statistics from the Federal University of Rio Grande do Sul (UFRGS) and also I am a master’s degree in statistics from the Federal University of Minas Gerais (UFMG). Currently I am doing my Ph.D in statistics at the Federal University of Minas Gerais (UFMG) and nowadays I am in a period abroad as visiting student at Virginia Commonwealth University (VCU).
+
+I have always been passionate about technology and computers and after starting my masters program, I was able to improve my code skills a lot. Since I started my studies at UFMG, I also started working on some projects, being the two most important InfoSAS and ELSA Brasil. The first was focused on the detection of anomalies in the SUS (the brazilian publicly funded health care system) production and the second is the largest longitudinal study in Brazil that investigates mainly chronic diseases.
 
 ***
 
 ### Interests
 
-* Estatístca Computacional
-* Visualização de Dados 
-* Estatística Espacial 
-* Modelagem Estatística
+* Computational Statistics
+* Data visualization
+* Spatial statistics 
+* Statistical modeling
+* Machine learning
 
 ***
 
@@ -42,7 +47,7 @@ e os fatores de risco associados à doenças crônicas.
   <a href="https://github.com/DouglasMesquita"> 
     <i class="fa fa-github" style='font-size:20px; margin: 0px 5px'></i>
   </a>
-  <a href="https://twitter.com/"> 
+  <a href="https://twitter.com/DouglasMesqita"> 
     <i class="fa fa-twitter" style='font-size:20px; margin: 0px 5px'></i>
   </a>
 </div>

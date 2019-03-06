@@ -1,15 +1,15 @@
 partido_analise <- tabPanel(title = "Party analysis", 
                             value = "partidos",
                             br(), hr(),
-                            column(width = 4,
-                                   column(width = 6,
+                            column(width = 10,
+                                   column(width = 2,
                                           pickerInput(inputId = "partido_ano", 
                                                       label = "Year", 
                                                       choices = anos, 
                                                       selected = 2014, 
                                                       options = list(`live-search` = TRUE))
                                    ),
-                                   column(width = 6,
+                                   column(width = 2,
                                           pickerInput(inputId = "partido_cargo", 
                                                       label = "Position", 
                                                       choices = cargos, 
@@ -17,13 +17,25 @@ partido_analise <- tabPanel(title = "Party analysis",
                                                       options = list(`live-search` = TRUE))
                                    )
                             ), 
-                            column(width = 8,
-                                   br(), 
+                            column(width = 2, style = "padding-top: 50px;",
                                    actionBttn(inputId = "partidos_gerar_visualizacoes", 
                                               label = "Select", 
                                               style = "fill", 
                                               color = "success", 
-                                              icon = icon("check")) 
+                                              icon = icon("check"), size = "sm") 
+                            ),
+                            conditionalPanel(condition = "input.partidos_gerar_visualizacoes < 1",
+                                             column(width = 12,
+                                                    br(), 
+                                                    wellPanel(
+                                                      HTML("<h1>Party analisys<h1>"),
+                                                      HTML("<h4>
+                                                           Here the user can see the distribution of gender, ethnicity, and scholarity for each position. 
+                                                           <br>
+                                                           Also it is possible to see how many elected candidates in each category.
+                                                           <h4>")
+                                                    )
+                                             )
                             ),
                             ##-- Outputs ----
                             column(width = 12,

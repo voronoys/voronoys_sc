@@ -19,10 +19,14 @@ home <- tabPanel(title = "Home",
                  column(width = 12,
                         br(), br(), br(), br(),
                         wellPanel(
-                          #HTML("<h2>VORONOYS é um projeto que traz o universo da ciência de dados aplicado às eleições brasileiras. Nossa visão é transmitir, de forma clara e objetiva, informações relevantes sobre resultados eleitorais. Nossas soluções contemplam assuntos como visualização de dados e elucidação do perfil socioeconômica dos votantes de cada partido.</h2>")
-                          HTML("<h2><b>VORONOYS</b> is a project that brings the data science thoughts applied to Brazilian elections.
-                                Our aim is to show, clearly and directly, relevant information about election results using some underexplored point of views.
-                                To achieve this we tackle subjects as data vizualization and voters socioecoonomic  measures of each party.</h2>")
+                          HTML("<h1><b>VORONOYS</b></h1>"),
+                          HTML("<h4><b>VORONOYS</b> is a project that brings the data science thoughts applied to Brazilian elections.
+                               Our aim is to show, clearly and directly, relevant information about election results using some underexplored point of views.
+                               To achieve this we tackle subjects as data vizualization and voters socio-demographic measures of each party.
+                               Using the voronoi tesselation methodology it was possible to report the election results in a more disaggregated level. 
+                               The user can compare important socio-demographic variables with the proportion of votes in each party and then 
+                               understand the voter profile pattern of each party.
+                               Besides that several informations of the candidates and results can be found and explored in this app.</h4>")
                         )
                  )
 )

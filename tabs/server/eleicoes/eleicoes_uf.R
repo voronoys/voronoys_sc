@@ -81,7 +81,7 @@ observeEvent(c(input$eleicoes_ano_uf,
                    estado_default <- input$eleicoes_estado_uf
                    
                    if(!(estado_default %in% estados)){
-                     estado_default <- "All states"
+                     estado_default <- "AC"
                    }
                    
                    ##-- Atualizando os partidos ----

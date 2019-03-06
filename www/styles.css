@@ -164,7 +164,7 @@ a:focus, a:hover {
 
 .col-sm-2 {
     width: 16.66666667%;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .well {
@@ -222,8 +222,13 @@ hr {
     line-height: 0.9;
 }
 
-.h1, .h3, h1, h2 {
+.h1, .h2, .h3, h1, h2 {
     line-height: 1.5;
+}
+
+.h4, h4 {
+  line-height: 1.5;
+  text-align: justify !important;
 }
 
 /* Sobre */

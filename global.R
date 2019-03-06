@@ -31,8 +31,8 @@ source("functions/plot_functions.R")
 cores <- c("#098ebb", "#fdc23a", "#e96449", "#818286")
 
 ##-- Dados do banco ----
-load(file = "dados/data/dados_gerais.RData")
-load(file = "dados/data/chaves.RData")
+load(file = "dados/dados_gerais.RData")
+load(file = "dados/chaves.RData")
 
 anos <- chaves %>% distinct(ANO_ELEICAO) %>% .$ANO_ELEICAO %>% as.numeric() %>% sort
 cargos <- chaves %>% mutate(DESCRICAO_CARGO = toupper(DESCRICAO_CARGO)) %>%distinct(CODIGO_CARGO, DESCRICAO_CARGO)
@@ -46,8 +46,8 @@ municipios_df <- chaves %>% filter(UF == "SP") %>% distinct(COD_MUN_IBGE, NOME_M
 municipios <- as.list(c(municipios_df$COD_MUN_IBGE, "TODOS MUNICIPIOS"))
 names(municipios) <- c(municipios_df$NOME_MUNICIPIO, "All cities")
 
-partidos_cores <- readRDS(file = "dados/data/cores_partidos.RDS")
-load("dados/data/voronoy/voronoi_est_sp.RData")
+partidos_cores <- readRDS(file = "dados/cores_partidos.RDS")
+load("dados/voronoy/voronoi_est_sp.RData")
 
 ##-- Chamando os componentes do header shiny ----
 tab_files <- list.files(path = "tabs", full.names = T, recursive = T)

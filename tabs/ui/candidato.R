@@ -5,7 +5,7 @@ candidato <- tabPanel(title = "Candidates",
                       value = "candidatos",
                       hr(),
                       tabsetPanel(
-                        perfil,
-                        perfil_eleitorado
+                        perfil_eleitorado,
+                        perfil
                       )
 )

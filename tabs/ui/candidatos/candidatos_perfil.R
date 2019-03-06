@@ -50,20 +50,32 @@ perfil <- tabPanel(title = "Candidate profile",
                                                             `none-selected-text` = "None selected"))
                           )
                    ), 
-                   column(width = 2,
-                          br(),
+                   column(width = 2, style = "padding-top: 50px;",
                           actionBttn(inputId = "perfil_candidato_gerar_visualizacoes", 
                                      label = "Select", 
                                      style = "fill", 
                                      color = "success", 
-                                            icon = icon("check")) 
+                                     icon = icon("check"), 
+                                     size = "sm") 
+                   ),
+                   conditionalPanel(condition = "input.perfil_candidato_gerar_visualizacoes < 1",
+                                    column(width = 12,
+                                           br(), 
+                                           wellPanel(
+                                             HTML("<h1>Candidates profile<h1>"),
+                                             HTML("<h4>How old is your candidate? Is he/she graduated? Where is he/she from? How many votes in your city?
+                                                  <br>                                                  
+                                                  In this tab you can answer this and other questions. 
+                                                  <br><br>
+                                                  Have fun!<h4>")
+                                           )
+                                    )
                    ),
                    ##-- Outputs ----
                    column(width = 12,
                           column(width = 6,
                                  conditionalPanel(condition = "input.perfil_candidato_gerar_visualizacoes > 0",
-                                                  
-                                                  HTML("<center><h1>VOTES PROPORTION MAP</h1></center>"),
+                                                  HTML("<center><h1>PROPORTION OF VOTES</h1></center>"),
                                                   br(), 
                                                   column(width = 12,
                                                          withSpinner(leafletOutput("perfil_candidatos_mapa", height = "500px"), type = 6)
@@ -73,7 +85,6 @@ perfil <- tabPanel(title = "Candidate profile",
                           column(width = 6,
                                  conditionalPanel(condition = "input.perfil_candidato_gerar_visualizacoes > 0",
                                                   HTML("<center><h1>CANDIDATE PROFILE</h1></center>"),
-                                                  
                                                   column(width = 12,
                                                          withSpinner(uiOutput("perfil_candidato"), type = 6)
                                                   )           

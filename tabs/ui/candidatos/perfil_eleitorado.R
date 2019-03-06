@@ -10,7 +10,7 @@ perfil_eleitorado <- tabPanel(title = "Voter profile",
                                      ),
                                      column(width = 2,
                                             pickerInput(inputId = "perfil_candidato_voronoi_cargo", 
-                                                        label = "Cargo", 
+                                                        label = "Position", 
                                                         choices = "PRESIDENT",
                                                         selected = "PRESIDENT")
                                      ),
@@ -47,29 +47,58 @@ perfil_eleitorado <- tabPanel(title = "Voter profile",
                                                                        `none-selected-text` = "None selected"))
                                      )
                               ),
-                              column(width = 2,
-                                     br(),
+                              column(width = 2, style = "padding-top: 50px;",
                                      actionBttn(inputId = "perfil_candidato_voronoi_gerar_visualizacoes", 
                                                 label = "Select", 
                                                 style = "fill", 
                                                 color = "success", 
-                                                icon = icon("check")) 
+                                                icon = icon("check"), size = "sm"),
+                                     HTML("&nbsp"),
+                                     actionBttn(inputId = "perfil_candidato_voronoi_metodologia", 
+                                                label = "Methodology", 
+                                                style = "fill", 
+                                                color = "danger", 
+                                                icon = icon("book"), size = "sm")
+                              ),
+                              conditionalPanel(condition = "input.perfil_candidato_voronoi_gerar_visualizacoes < 1",
+                                               column(width = 12,
+                                                      br(), 
+                                                      wellPanel(
+                                                        HTML("<h1>Voronoi Data Linkage: Extracting data from polygons to points<h1>"),
+                                                        HTML("<h4>
+                                                             In Brazil, electoral data has four main aggregation levels, they are: 
+                                                             the state, municipality, electoral zone and electoral section. 
+                                                             The lower level, which is the electoral sections, does not have any administrative division, 
+                                                             i.e., it is just an address and not an area. 
+                                                             Considering that socio-demographic variables can be useful to explain the election outcome,
+                                                             we are interested in aggregate such kind of data, provided by the Instituto Brasileiro de
+                                                             Geografia e Estatistica (IBGE) in small areas called census sectors. The data used here is
+                                                             the President election in the year of 2014 at the state of São Paulo.
+                                                             The socio-demographic data is from the 2010 IBGE census. The variables extracted from
+                                                             the census sectors to the electoral sections are income, household, illiteracy rate, 
+                                                             proportion of white people, and proportion of women. 
+                                                             The outcome of interest, present on electoral section data, is the proportion of votes in
+                                                             each party. Then it is possible to understand the characteristics of voters of each party as well
+                                                             a smoothed result of the election at a electoral section level (voronoi cells).
+                                                             <h4>")
+                                                      )
+                                               )
                               ),
                               column(width = 12,
                                      conditionalPanel(condition = "input.perfil_candidato_voronoi_gerar_visualizacoes > 0",
                                                       column(width = 6,
-                                                             HTML("<center><h1>VOTES BY ELECTORAL SECTIONS MAP</h1></center>")
+                                                             HTML("<center><h1>VOTES BY ELECTORAL SECTIONS</h1></center>")
                                                       ),
                                                       column(width = 6,
-                                                             HTML("<center><h1>SOCIOECONOMIC COVARIATE MAP</h1></center>"),
+                                                             HTML("<center><h1>SOCIO-DEMOGRAPHIC VARIABLES</h1></center>"),
                                                              HTML("<center>"),
                                                              pickerInput(inputId = "perfil_candidato_voronoi_variavel", 
                                                                          label = "Variável", 
-                                                                         choices = c("Income (log)", "Income (categories)",
+                                                                         choices = c("Income", "Income (categories)",
                                                                                      "% white", "% not white",
                                                                                      "% illiteracy",
                                                                                      "% women", "% men"),
-                                                                         selected = "Income (log)"),
+                                                                         selected = "Income"),
                                                              HTML("</center>")
                                                       ),
                                                       column(width = 12,
