@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## About the app
 
-**VORONOYS** is a team composed by  four statisticians and a political scientist. It begins motivated by the first CEPESP Data challenge , in which the main objective was to show new perspectives on the Brazilian elections. The name is based on the mathematical technique used in this work called Voronoi tessellation.
+**VORONOYS** is a team composed by four statisticians and a political scientist. It begins motivated by the first CEPESP Data challenge, in which the main objective was to show new perspectives on the Brazilian elections. The name is based on the mathematical technique used in this work called Voronoi tessellation.
 
 
 ## Links
@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This tool provides to its users a deep access to Brazilian election results. It enablesto create general maps, plots, and tables by states and cities. It also enables investigate some under reported analysis, the case of the number of coalitions for example. As Brazil has nowadays 35 parties, our tool provides the users a huge number of analysis possibilities.
 
-Besides the general visualizations, we also provide a new way to investigate Brazilian elections. In Brazil, electoral data has four main aggregation levels: state, municipality, electoral zone and electoral section. The lower one, the electoral section, does not have any administrative division, i.e., it is just an address and not an area. Considering that social-demographic variables can be useful to explain the election outcome, we are interested in aggregating such kind of data, provided by the Instituto Brasileiro de Geografia e Estatistica (IBGE) in small areas called census sectors. The variables extracted from the census sectors to the electoral sections are income, household, illiteracy rate, proportion of white people, and proportion of women. The outcome of interest, available on electoral section data, is the proportion of votes in each party. As a consequence,  it is possible to understand voters  characteristics each party as well as a smoothed result of the election at an electoral section level (voronoi cells).
+Besides the general visualizations, we also provide a new way to investigate Brazilian elections. In Brazil, electoral data has four main aggregation levels: state, municipality, electoral zone and electoral section. The lower one, the electoral section, does not have any administrative division, i.e., it is just an address and not an area. Considering that social-demographic variables can be useful to explain the election outcome, we are interested in aggregating such kind of data, provided by the Instituto Brasileiro de Geografia e Estatistica (IBGE) in small areas called census sectors. The variables extracted from the census sectors to the electoral sections are income, household, illiteracy rate, proportion of white people, and proportion of women. The outcome of interest, available on electoral section data, is the proportion of votes in each party. As a consequence, it is possible to understand voters characteristics each party as well as a smoothed result of the election at an electoral section level (voronoi cells).
 
 With this tool it is possible to check some hypothesis about characteristics of each party voters. Is it true that low-income people vote in left-wing parties? And white people? Feel free to check the voters of our 35 parties!
 
