@@ -11,7 +11,7 @@ Links
 -----
 
 -   Live version: [Voronoys - Live app](https://voronoys.shinyapps.io/voronoys/)
--   RStudio cloud: [Voronoys - RStudio cloud](https://voronoys.shinyapps.io/voronoys/)
+-   RStudio cloud: [Voronoys - RStudio cloud](https://rstudio.cloud/project/255741)
 -   GitHub: [Voronoys - Github](https://github.com/voronoys/voronoys_sc)
 
 Quick reading: Highlights
