@@ -14,13 +14,12 @@ fontsize: 8pt
 
 ### Description
 
-Possui graduação em Ciências Sociais (2006) e mestrado em Ciência Política (2009) pela Universidade 
-Federal de Minas Gerais (UFMG). É mestre em Ciência Política pela Universidade da California, 
-Los Angeles (UCLA), onde cursou também mestrado em Estatística e o doutorado em Ciência Política. 
-É bolsista CAPES/Fulbright e pesquisador do Centro de Estudos Legislativos da UFMG. 
-Tem experiência na área de Ciência Política, com ênfase em instituições políticas comparadas e 
-desenho de pesquisa, atuando principalmente nos seguintes temas: comportamento parlamentar, 
-relação Executivo-Legislativo, política distributiva e partidos na América Latina.
+He holds a degree in Social Sciences (2006) and holds a Master's Degree in Political Science (2009) from the University
+Federal University of Minas Gerais (UFMG). He holds a Master's degree in Political Science from the University of California,
+Los Angeles (UCLA), where he also studied Master of Science in Statistics and PhD in Political Science.
+He is a Fellow of CAPES/Fulbright and a researcher at the Nucleus of Legislative Studies of UFMG.
+Has experience in the area of Political Science, with emphasis on research desing, working mainly on the following topics: parliamentary behavior,
+executive-legislative relationship, distributive politics, and parties in Latin America.
 
 <!-- *** -->
 

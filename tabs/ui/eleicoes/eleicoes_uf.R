@@ -51,8 +51,8 @@ eleicoes_uf <- tabPanel(title = "State level",
                                                 br(), 
                                                 wellPanel(
                                                   HTML("<h1>Elections: State level<h1>"),
-                                                  HTML("<h4>In this tab the user can investigate the winners in each state/city for the President, Senator, and Governor position. 
-                                                       It is interesting to see hot areas of each party.<h4>")
+                                                  HTML("<h4>In this tab the user can investigate the winners in each state/city for the Senator and Governor position. 
+                                                       It is interesting to see hot areas of each party. As soon as possible, other positions will be added.<h4>")
                                                 )
                                          )
                         ),

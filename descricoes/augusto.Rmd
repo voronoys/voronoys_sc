@@ -14,17 +14,19 @@ fontsize: 8pt
 
 ### Description
 
-Possui graduação em Estatística pela Universidade Federal do Rio Grande do Sul - UFRGS (2015), atualmente é mestrando em Estatística pela Universidade Federal de Minas Gerais. Trabalhou como bolsista de iniciação científica CAPES com classificação se séries temporais. Foi coordenador do Grupo Stats4Good - UFMG, sendo idealizador e líder do projeto Veraz, o qual visa criar uma plataforma de visualização de dados para o Portal da Transparência.  
+Currently I’m Data Scientist at Agibank in the credit department, my activities are related with fraud detection, credit risk, debt collection, among other common tasks of a data scientist as ETL, data visualization and etc. Previously, I worked at 4all in the field of digital marketing, I used build machine learning models to predict churn, customer life cycle and recommendation engines. Also, I teach class of R computing in a MBA course at Laureate International Universities - Uniritter.
+
+
+I obtained my MSc in statistics from the Federal University of Minas Gerais and my bachelor degree in statistics from Federal University of Rio Grande do Sul.
 
 ***
 
 ### Interests
 
 * Machine Learning
-* AI
-* Estatística Computacional
-* Bayesian Analysis
 * Data Visualization
+* Bayesian Inference
+* Financial Statistics
 
 ***
 

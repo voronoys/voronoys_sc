@@ -30,8 +30,7 @@ partido_analise <- tabPanel(title = "Party analysis",
                                                     wellPanel(
                                                       HTML("<h1>Party analisys<h1>"),
                                                       HTML("<h4>
-                                                           Here the user can see the distribution of gender, ethnicity, and scholarity for each position. 
-                                                           <br>
+                                                           Here the user can see the distribution of gender, ethnicity, and scholarity for each position.
                                                            Also it is possible to see how many elected candidates in each category.
                                                            <h4>")
                                                     )

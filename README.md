@@ -5,7 +5,7 @@ Voronoys <a href='https://voronoys.shinyapps.io/voronoys/'><img src='www/img/log
 About the app
 -------------
 
-*VORONOYS* is a group composed of 4 statisticians and a political scientist. Its beginning was motivated by the first challenge of CEPES Data, in which the main objective was to show new perspectives on the Brazilian elections. The name is based on the mathematical technique used in this work called Voronoi tessellation.
+**VORONOYS** is a group composed of 4 statisticians and a political scientist. Its beginning was motivated by the first challenge of CEPESP Data, in which the main objective was to show new perspectives on the Brazilian elections. The name is based on the mathematical technique used in this work called Voronoi tessellation.
 
 Links
 -----

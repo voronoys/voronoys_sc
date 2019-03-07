@@ -73,12 +73,12 @@ observeEvent(c(input$eleicoes_ano_br,
                    chaves_sub <- chaves %>%
                      filter(ANO_ELEICAO == ano & NUM_TURNO == turno)
                    ##-- Setando o estado default
-                   estados <- levels(factor(x = c("All states", sort(unique(chaves_sub$UF))),
-                                             levels = c("All states", sort(unique(chaves_sub$UF)))))
+                   estados <- levels(factor(x = sort(unique(chaves_sub$UF)),
+                                             levels = sort(unique(chaves_sub$UF))))
                    estado_default <- input$eleicoes_estado_br
                    
                    if(!(estado_default %in% estados)){
-                     estado_default <- "All states"
+                     estado_default <- "AC"
                    }
                    
                    ##-- Atualizando os partidos ----

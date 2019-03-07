@@ -63,11 +63,8 @@ perfil <- tabPanel(title = "Candidate profile",
                                            br(), 
                                            wellPanel(
                                              HTML("<h1>Candidates profile<h1>"),
-                                             HTML("<h4>How old is your candidate? Is he/she graduated? Where is he/she from? How many votes in your city?
-                                                  <br>                                                  
-                                                  In this tab you can answer this and other questions. 
-                                                  <br><br>
-                                                  Have fun!<h4>")
+                                             HTML("<h4>How old is your candidate? Is he/she graduated? Where is he/she from? How many votes in your city? In this tab you can answer this and other questions. 
+                                                  <h4>")
                                            )
                                     )
                    ),

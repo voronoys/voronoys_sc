@@ -5,7 +5,7 @@ observeEvent(input$eleicoes_ano_uf,{
   
   if(!is.null(ano)){
     chaves_sub <- chaves %>%
-      filter(ANO_ELEICAO == ano & !(DESCRICAO_CARGO_EN %in% c("MAYOR", "CITY COUNCILOR", "STATE DEPUTY", "FEDERAL DEPUTY", "DISTRITAL DEPUTY"))) %>%
+      filter(ANO_ELEICAO == ano & !(DESCRICAO_CARGO_EN %in% c("MAYOR", "CITY COUNCILOR", "STATE DEPUTY", "FEDERAL DEPUTY", "DISTRITAL DEPUTY", "PRESIDENT"))) %>%
       distinct(CODIGO_CARGO, DESCRICAO_CARGO_EN)
 
     ##-- Setando o cargo default
@@ -76,8 +76,8 @@ observeEvent(c(input$eleicoes_ano_uf,
                    chaves_sub <- chaves %>%
                      filter(ANO_ELEICAO == ano & NUM_TURNO == turno)
                    ##-- Setando o estado default
-                   estados <- levels(factor(x = c("All states", sort(unique(chaves_sub$UF))),
-                                            levels = c("All states", sort(unique(chaves_sub$UF)))))
+                   estados <- levels(factor(x = sort(unique(chaves_sub$UF)),
+                                            levels = sort(unique(chaves_sub$UF))))
                    estado_default <- input$eleicoes_estado_uf
                    
                    if(!(estado_default %in% estados)){
