@@ -14,20 +14,25 @@ fontsize: 8pt
 
 ### Description
 
-Bacharel em Estatística pela Universidade Federal do Rio Grande do Sul (2016) e atualmente é aluno
-de mestrado em Estatística na Universidade Federal de Minas Gerais, onde atualmente trabalha com 
-estatística espacial. Tem experiência com geoestatística, análise de dados públicos, análise de 
-dados da web e modelos preditivos. 
+I'm a statistics student in Brazil with a Bachelor degree from the Universidade Federal do Rio Grande do
+Sul and an expected MS from Universidade Federal de Minas Gerais, under the guidance of Dr. Renato
+Assuncao.  In my undergraduate course I worked with geostatistical models for count data, comparing the
+algorithms from three different R packages, geoRglm, geoCount and Stan. The motivation for this study
+was a project called AMBES funded by the Brazilian public oil company PETROBRAS. I worked applying
+geostatistical models in support to researchers from other areas. Currently, I’ve been developing a
+Monte Carlo test applied to a specific problem proposed by researchers from ESRI, the ArcGIS company,
+with whom my MS advisor keep contact. Although I’ve been working mainly with spatial statistics, I am
+also interested in bayesian inference, computational statistics,  strategies to work with big datasets 
+and performance improvement. 
 
 ***
 
 ### Interests
 
-* Estatística Aplicada 
-* Estatístca Computacional
-* Estatística Espacial 
-* Estatística Bayesiana
-* Machine Learning
+* Applied Statistics 
+* Computational Statistics
+* Spatial Statistics
+* Bayesian Inference
 
 ***
 

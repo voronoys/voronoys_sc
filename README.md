@@ -28,11 +28,11 @@ With this tool it is possible to check some hypothesys about characteristics of 
 General idea
 ------------
 
-Our main aim is to provide a non conventional tool to visualize brazilian election in which the user is able to understand the information clearly and directly. This way everyone is able to use and understand this tool.
+Our main aim is to provide a non conventional tool to visualize brazilian election in which the user is able to understand the information clearly and directly. As a consequence, everyone is able to use and understand this tool.
 
-A differential of our app is the possibility to visualize brazilian elections in a less agregated level. Nowadays the lowest areal level in which we can analise election data is municipalities. We are providing a way to visualize the elections inside each city because we believe that big cities have a huge variety of realities and then a unique score for each city is not representative. To visualize the results in each city we used the voronoi tesseletaion technique to create polygons using by indexes the address of electoral sections in São Paulo state.
+A differential feature of our app is the possibility to visualize brazilian elections in a less agregated level. Nowadays the lowest areal level in which such data can be analyzed is municipalities. We are providing a way to visualize the elections inside each city, because we believe that big cities have a huge variety of realities and then a unique score for each city is not representative. To visualize the results in each city we used the voronoi tesseletaion technique in order to create polygons indexed by the addresses of electoral sections in São Paulo state.
 
-We assumed that voters prefer to vote near their houses. Then using censitary informations we can contrast two layers of polygons: 1) censitary regions; 2) voronoi cells created using electoral sections. Then it is possible to compare populations of different parties and understand their main characteristics.
+We assumed that voters prefer to vote near their houses. Then using censitary informations we can contrast two layers of polygons: 1) censitary regions; 2) voronoi cells, created using electoral sections. Hence, it is possible to compare populations of different parties and understand their main characteristics.
 
 Visualizations
 --------------
@@ -49,7 +49,7 @@ in this tab the user can find visualizations at federal and state level. Winners
 
 ### Party analisys
 
-Here it is possible to understand how political parties are related in federal and state level. The parties more represented in each state, coalitions, and socio-demographic information of the politicians in each party are some example of outputs in this tab.
+Here it is possible to understand how political parties are related in federal and state level. The parties more represented in each state, coalitions, and socio-demographic information of the politicians in each party are examples of outputs in this tab.
 
 ![](www/img/partidos.png)
 
