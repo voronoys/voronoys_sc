@@ -22,9 +22,9 @@ fontsize: 8pt
 <!-- Atualmente trabalha no projeto ELSA Brasil cujo objetivo é investigar a incidência  -->
 <!-- e os fatores de risco associados à doenças crônicas.  -->
 
-I obtained my MSc in statistics from the Federal University of Minas Gerais (UFMG) and my bachelor degree in statistics from Federal University of Rio Grande do Sul. Currently I am doing my Ph.D in statistics at the Federal University of Minas Gerais and nowadays I am in a period abroad as visiting student at Virginia Commonwealth University (VCU).
+I obtained my MSc in Statistics from the Federal University of Minas Gerais (UFMG) and my bachelor degree in statistics from Federal University of Rio Grande do Sul (UFRGS). Currently, I am a Ph.D student in Statistics at al UFMG and nowadays I am in a period abroad as a visiting student at Virginia Commonwealth University (VCU), in America.
 
-I have always been passionate about technology and computers and after starting my masters program, I was able to improve my code skills a lot. Since I started my studies at UFMG, I also started working on some projects, being the two most important InfoSAS and ELSA Brasil. The first was focused on the detection of anomalies in the SUS (the brazilian publicly funded health care system) production and the second is the largest longitudinal study in Brazil that investigates mainly chronic diseases.
+I have always been passionate about technology and computers and after starting my master's program, I was able to improve my code skills a lot. Since I started my studies at UFMG, I also started working on some projects, being the two most important: InfoSAS and ELSA Brasil. The first was focused on the detection of anomalies in the SUS (Brazilian publicly funded health care system) production. The latter is the largest longitudinal study in Brazil that investigates mainly chronic diseases.
 
 ***
 

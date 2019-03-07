@@ -14,10 +14,9 @@ fontsize: 8pt
 
 ### Description
 
-Currently I’m Data Scientist at Agibank in the credit department, my activities are related with fraud detection, credit risk, debt collection, among other common tasks of a data scientist as ETL, data visualization and etc. Previously, I worked at 4all in the field of digital marketing, I used build machine learning models to predict churn, customer life cycle and recommendation engines. Also, I teach class of R computing in a MBA course at Laureate International Universities - Uniritter.
+Currently, I’m Data Scientist at Agibank in the credit department. My activities are related with fraud detection, credit risk, debt collection, among other common tasks of a data scientist as ETL, data visualization and etc. Previously, I worked at 4all in the field of digital marketing, I used to build machine learning models to predict churn, customer life cycle and recommendation engines. Also, I teach R computing in a MBA course at Laureate International Universities - Uniritter.
 
-
-I obtained my MSc in statistics from the Federal University of Minas Gerais and my bachelor degree in statistics from Federal University of Rio Grande do Sul.
+I obtained my MSc in Statistics from the Federal University of Minas Gerais (UFMG) and my bachelor degree in statistics from Federal University of Rio Grande do Sul (UFRGS).
 
 ***
 

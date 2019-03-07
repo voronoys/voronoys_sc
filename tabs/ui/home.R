@@ -20,13 +20,13 @@ home <- tabPanel(title = "Home",
                         br(), br(), br(), br(),
                         wellPanel(
                           HTML("<h1><b>VORONOYS</b></h1>"),
-                          HTML("<h4><b>VORONOYS</b> is a project that brings the data science thoughts applied to Brazilian elections.
+                          HTML("<h4><b>VORONOYS</b> is a project which explores Brazilian elections by the usage of data science. 
                                Our aim is to show, clearly and directly, relevant information about election results using some underexplored point of views.
-                               To achieve this we tackle subjects as data vizualization and voters socio-demographic measures of each party.
-                               Using the voronoi tesselation methodology it was possible to report the election results in a more disaggregated level. 
-                               The user can compare important socio-demographic variables with the proportion of votes in each party and then 
-                               understand the voter profile pattern of each party.
-                               Besides that several informations of the candidates and results can be found and explored in this app.</h4>")
+                               To achieve this, we tackle subjects as data visualization and voters socio-demographic measures by each candidate party. 
+                               Using the Voronoi tessellation methodology it was possible to report the election results in a more disaggregated level. 
+                               The user can compare important socio-demographic variables with the proportion of votes in each party and then understand each party 
+                               voter profile pattern . Besides that, several candidates and results information can be found and explored in this app.
+                               .</h4>")
                         )
                  )
 )

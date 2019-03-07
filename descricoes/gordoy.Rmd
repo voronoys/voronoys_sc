@@ -14,16 +14,8 @@ fontsize: 8pt
 
 ### Description
 
-I'm a statistics student in Brazil with a Bachelor degree from the Universidade Federal do Rio Grande do
-Sul and an expected MS from Universidade Federal de Minas Gerais, under the guidance of Dr. Renato
-Assuncao.  In my undergraduate course I worked with geostatistical models for count data, comparing the
-algorithms from three different R packages, geoRglm, geoCount and Stan. The motivation for this study
-was a project called AMBES funded by the Brazilian public oil company PETROBRAS. I worked applying
-geostatistical models in support to researchers from other areas. Currently, I’ve been developing a
-Monte Carlo test applied to a specific problem proposed by researchers from ESRI, the ArcGIS company,
-with whom my MS advisor keep contact. Although I’ve been working mainly with spatial statistics, I am
-also interested in bayesian inference, computational statistics,  strategies to work with big datasets 
-and performance improvement. 
+I’m a statistics student in Brazil with a Bachelor degree from the Federal Uniersity of Rio Grande do Sul (UFRGS) and an expected MS from Federal university of Minas Gerais (UFMG), under the guidance of Dr. Renato Assuncao. In my undergraduate course I worked with geostatistical models for count data, comparing the algorithms from three different R packages, geoRglm, geoCount and Stan. The motivation for this study was a project called AMBES funded by the Brazilian public oil company PETROBRAS. I worked applying geostatistical models in support to researchers from other areas. Currently, I’ve been developing a Monte Carlo test applied to a specific problem proposed by researchers from ESRI, the ArcGIS company, with whom my MS advisor keeps contact. Although I’ve been working mainly with Spatial Statistics, I am also interested in Bayesian Inference, Computational Statistics, strategies to work with big datasets and performance improvement.
+
 
 ***
 

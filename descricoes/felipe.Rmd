@@ -14,12 +14,7 @@ fontsize: 8pt
 
 ### Description
 
-He holds a degree in Social Sciences (2006) and holds a Master's Degree in Political Science (2009) from the University
-Federal University of Minas Gerais (UFMG). He holds a Master's degree in Political Science from the University of California,
-Los Angeles (UCLA), where he also studied Master of Science in Statistics and PhD in Political Science.
-He is a Fellow of CAPES/Fulbright and a researcher at the Nucleus of Legislative Studies of UFMG.
-Has experience in the area of Political Science, with emphasis on research desing, working mainly on the following topics: parliamentary behavior,
-executive-legislative relationship, distributive politics, and parties in Latin America.
+He holds a degree in Social Sciences (2006) and a Master’s Degree in Political Science (2009) from the Federal University of Minas Gerais (UFMG). He holds a Master’s degree in Political Science from the University of California, Los Angeles (UCLA) as well, where he also studied Master of Science in Statistics and PhD in Political Science. He is a Fellow of CAPES/Fulbright and a researcher at the Nucleus of Legislative Studies of UFMG. He has experience in the area of Political Science, with emphasis on research design, working mainly on the following topics: parliamentary behavior, executive-legislative relationship, distributive politics, and parties in Latin America.
 
 <!-- *** -->
 

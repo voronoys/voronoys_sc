@@ -51,8 +51,9 @@ eleicoes_brasil <- tabPanel(title = "Federal level",
                                                     br(), 
                                                     wellPanel(
                                                       HTML("<h1>Elections: Federal level<h1>"),
-                                                      HTML("<h4>In this tab the user can investigate the winners in each state/city for the President position. 
-                                                           It is interesting to see hot areas of each party.<h4>")
+                                                      HTML("<h4>In this tab, the user can explore the President candidate who received the votes majority in each state/city. 
+                                                           It is interesting to see each party hot areas.
+                                                           .<h4>")
                                                     )
                                              )
                             ),

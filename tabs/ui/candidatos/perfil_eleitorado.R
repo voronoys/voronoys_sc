@@ -66,20 +66,15 @@ perfil_eleitorado <- tabPanel(title = "Voter profile",
                                                       wellPanel(
                                                         HTML("<h1>Voronoi Data Linkage: Extracting data from polygons to points<h1>"),
                                                         HTML("<h4>
-                                                             In Brazil, electoral data has four main aggregation levels, they are: 
-                                                             the state, municipality, electoral zone and electoral section. 
-                                                             The lower level, which is the electoral sections, does not have any administrative division, 
-                                                             i.e., it is just an address and not an area. 
-                                                             Considering that socio-demographic variables can be useful to explain the election outcome,
-                                                             we are interested in aggregate such kind of data, provided by the Instituto Brasileiro de
-                                                             Geografia e Estatistica (IBGE) in small areas called census sectors. The data used here is
-                                                             the President election in the year of 2014 at the state of São Paulo.
-                                                             The socio-demographic data is from the 2010 IBGE census. The variables extracted from
-                                                             the census sectors to the electoral sections are income, household, illiteracy rate, 
-                                                             proportion of white people, and proportion of women. 
-                                                             The outcome of interest, present on electoral section data, is the proportion of votes in
-                                                             each party. Then it is possible to understand the characteristics of voters of each party as well
-                                                             a smoothed result of the election at a electoral section level (voronoi cells).
+                                                              In Brazil, electoral data has four main aggregation levels: state, municipality, electoral zone and electoral 
+                                                              section. The lower one, the electoral section, does not have any administrative division, i.e., it is just an 
+                                                              address and not an area. Considering that social-demographic variables can be useful to explain the election 
+                                                              outcome, we are interested in aggregating such kind of data, provided by the Instituto Brasileiro de Geografia e 
+                                                              Estatistica (IBGE) in small areas called census sectors. The variables extracted from the census sectors to the 
+                                                              electoral sections are income, household, illiteracy rate, proportion of white people, and proportion of women. 
+                                                              The outcome of interest, available on electoral section data, is the proportion of votes in each party. As a 
+                                                              consequence,  it is possible to understand voters  characteristics each party as well as a smoothed result of the 
+                                                              election at an electoral section level (voronoi cells).
                                                              <h4>")
                                                       )
                                                )
